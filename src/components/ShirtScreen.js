@@ -23,8 +23,8 @@ const ShirtScreen=(props)=>{
                     
                     <div className="product-name">
                     <Link to={'/product/' + item._id}>{item.course}</Link></div>
-                    <div className="product-brand">{item.Fee}</div>
-                    <div className="product-price">${item.Duration}</div>
+                    <div className="product-brand">${item.Fee}</div>
+                    <div className="product-price">{item.Duration}</div>
                 </div>
             </li> 
           
